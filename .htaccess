@@ -1,0 +1,3 @@
+<IfModule mod_dir.c>
+FallbackResource /php-link-shortener/routes.php
+</IfModule>
