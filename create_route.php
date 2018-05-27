@@ -13,7 +13,7 @@ if(isset($_GET['supersecretpassword'])) {
     }
   } else {
     echo '<h1>Link Shortener</h1>';
-    echo '<form action="/php-link-shortener/api/create_route.php?supersecretpassword" method="POST">';
+    echo '<form action="/php-link-shortener/create_route.php?supersecretpassword" method="POST">';
     echo 'url.url/<input type="text" name="short" placeholder="Short"/><br />';
     echo '<input type="text" name="long" placeholder="Long"/>';
     echo '<input type="submit" name="submit" />';
